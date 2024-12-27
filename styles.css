@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a472a;  /* Dark Christmas Green */
+    color: #fff;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+}
+
+h1 {
+    color: #ff0000;  /* Christmas Red */
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ff0000;
+    }
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff0000;
+    }
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.festive {
+    color: #ffd700;  /* Gold */
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+    border: 3px solid #ff0000;
+}
+
+.caption {
+    color: #ffd700;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.christmas-message {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    border-top: 2px solid rgba(255, 215, 0, 0.3);
+    border-bottom: 2px solid rgba(255, 215, 0, 0.3);
+}
+
+.christmas-message p {
+    color: #ffd700;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
