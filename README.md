@@ -10,6 +10,6 @@ A festive Christmas-themed static website with beautiful animations and styling.
 
 ## Technologies Used
 - HTML5
-- CSS3 (with animations)
+- CSS3
 
 Created with ❤️ for the holiday season!
